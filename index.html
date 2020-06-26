@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP WEBSITE</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d457e7490b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="Books Logo" style="width: 20%">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse left" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#products">Product</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#film_team">Film Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact_us">Contactenos</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN PRODUCT VIEW -->
+    <header class="main-header">
+        <div  class="background-overlay text-white py-5" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center justify-content-center align-self-center">
+                        <h1>"Eyes Wide Shut" de Stanley Kubrick</h1>
+                        <p>Eyes Wide Shut es una película de drama psicológico de misterio erótico de 1999 dirigida, producida y coescrita por Stanley Kubrick . Basado en la novela de 1926 Traumnovelle ( Dream Story ) de Arthur Schnitzler , la historia se transfiere desde principios del siglo XX de Viena hasta la ciudad de Nueva York de los años noventa.</p>
+                        <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+                            Leer Más
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/book.png" alt="Product Image" class="img-fluid d-none d-sm-block book">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- GET INFO PRODUCTS -->
+    <section class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <input type="text" class="form-control form-control-lg" placeholder="Ingrese su Nombre">
+                </div>
+                <div class="col-md-4">
+                    <input type="email" class="form-control form-control-lg" placeholder="Ingrese su e-mail">
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-primary btn-lg btn-block">
+                        Enviar info.
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MORE INFO -->
+    <section class="py-5">
+        <div class="container" id="products">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card text-center bg-light text-dark">
+                        <div class="card-title">
+                            <img class="card-book" src="img/book.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5>Eyes Wide Shut</h3>
+                            <a href="#">¡Ver Mas!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center bg-light text-dark">
+                        <div class="card-title">
+                            <img class="card-book" src="img/book2.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5>Harry Potter</h3>
+                            <a href="#">¡Ver Mas!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center bg-light text-dark">
+                        <div class="card-title">
+                            <img class="card-book" src="img/book3.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5>Demian</h3>
+                            <a href="#">¡Ver Mas!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center bg-light text-dark">
+                        <div class="card-title">
+                            <img class="card-book" src="img/book4.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5>Matrix</h3>
+                            <a href="#">¡Ver Mas!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="bg-light text-center">
+        <div class="container">
+            <div class="row">
+                <div class="m-5 ">
+                    <h3>¿Porqué este producto?</h3>
+                    <p>Tratamos de entregar información acerca de distintas peliculas y libros que han marcado un antes y un despues, para que las personas amantes de leer y ver peliculas de culto tengan un lugar donde las reseñas serán las mas fiables.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- FAQ -->
+    <section class="container text-center p-5">
+        <h1 class="mb-4">FAQ</h1>
+        <div class="row">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        ¿Donde consigo mas información?
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      En las secciones hay botones que "Leer más" que te redigiran hacia sus contenidos donde se profundizara mas acerca del contenido que se seleccione
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        ¿Puedo ver las peliculas exhibidas?
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Claro, solo neceitas entrar a su contenido donde se te podra redireccionar a paginas autorizadas para transmitir el contenido seleccionado, tales como cinecalidad.to o netflix.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        ¿Se puede consultar mas infomacion acerca de los filmes?
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      En su contenido detalladose puede ver informacion detallada, pero tambien pueden haber enlaces adicionales para profundizar aun mas en detalle sobre datos que quizas escapan de nuestro contenido mostrable, pero siempre podras seguir investigando para ir descrubriendo lo que necesites.
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+
+    <!-- FILM TEAM -->
+    <section class="team text-center"  id="film_team">
+        <div class="container p-5">
+            <h1 class="text-white">Film Team</h1>
+            <p class="text-white">Participantes y creadores de la pelicula</p>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/director.png" alt="Director" class="img-fluid rounded-circle w-40 card-team">
+                            <h3>Stanley Kubrick</h3>
+                            <p>Director y Escritor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/director2.png" alt="Director" class="img-fluid rounded-circle w-40 card-team">
+                            <h3>Brian W. Cook</h3>
+                            <p>Dirección</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/director3.png" alt="Director" class="img-fluid rounded-circle w-40 card-team">
+                            <h3>Nicole Kidman</h3>
+                            <p>Actriz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/director4.png" alt="Director" class="img-fluid rounded-circle w-40 card-team">
+                            <h3>Tom Cruise</h3>
+                            <p>Actor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT US -->
+    <section class="bg-light py-5">
+        <div class="container" id="contact_us">
+            <div class="row">
+                <div class="col-lg-9">
+                    <h3 class="mb-4">Contactenos</h3>
+                    <form action="">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <i class="fas fa-user input-group-text"></i>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <i class="fas fa-envelope input-group-text"></i>
+                            </div>
+                            <input type="email" class="form-control" placeholder="E-mail">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <i class="fas fa-pencil-alt input-group-text"></i>
+                            </div>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" class="form-control"></textarea>
+                        </div>
+                        <button class="btn btn-primary btn-lg btn-block">
+                            Enviar
+                        </button>
+                    </form>
+                </div>
+                <div class="col-lg-3 align-self-center">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- COPYRIGHT -->
+    <footer>
+        <div class="container p-2 text-white text-center">
+            <p> Copyright &copy; 2020 
+            Website Designed By Vicente Muñoz</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+</body>
+</html>
